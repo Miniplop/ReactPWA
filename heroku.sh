@@ -13,7 +13,7 @@ fi
 git pull --rebase && \
 git merge -X theirs --no-edit $br && \
 npm run build && \
-git add -f dist
+git add -f build
 git commit -a --amend --no-edit && \
 git push origin $deploy_br && \
 git checkout $br || exit 1
