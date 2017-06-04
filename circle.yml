@@ -4,7 +4,7 @@ general:
       - heroku
 machine:
   node:
-    version: 5
+    version: 6.10
 deployment:
   heroku:
     branch: master
