@@ -17,7 +17,7 @@
     "eject": "react-scripts eject"
   },
   "engines": {
-    "node": ">= 6.0.0",
-    "npm": ">= 3.0.0"
+    "node": "= 6.10.0",
+    "npm": "= 3.10.0"
   }
 }
